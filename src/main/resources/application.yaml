@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: flight
+
+flight:
+  search-cache:
+    ttl: 5m
+
+booking:
+  reservation:
+    ttl: 10m
